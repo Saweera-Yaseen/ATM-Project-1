@@ -8,7 +8,7 @@ let pinAnswer = await inquirer.prompt({
     type: "number",
 });
 if (pinAnswer.pin === mypin) {
-    console.log("Ypur pin is correct");
+    console.log("Your pin is correct");
     let operationAns = await inquirer.prompt({ name: "operations",
         message: "Please select options",
         type: "list",
